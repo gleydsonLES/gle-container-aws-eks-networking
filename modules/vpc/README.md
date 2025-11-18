@@ -121,8 +121,3 @@ Resumo em 3 linhas
 3. Executar: terraform init → plan (com tfvars) → apply; testar em staging antes de produção.
 
 ----
-
-Se quiser, posso:
-- adicionar `validation` blocks nas variáveis do módulo,
-- quebrar o módulo em submódulos (subnet/nat/acl) para maior reutilização,
-- ou criar um exemplo em `examples/` com um `terraform.tfvars` pronto.
